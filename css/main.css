@@ -24,7 +24,7 @@ body {
                           Helvetica,
                           Arial,
                           sans-serif;
-  margin: 2em auto;
+  margin: 0em auto;
   padding: 0 1em;
   max-width: 64em;
 }
@@ -173,7 +173,7 @@ div#webtech p {
   text-align: center;
 }
 
-@media (min-width: 62em) {
+@media (min-width: 64em) {
   [class*='col-'] {
     float: left;
     width: 32.2%;
@@ -195,6 +195,13 @@ linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
 linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
 background-color: slategray;
 background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+
+.lined-paper {
+background-color: #fff; 
+background-image: 
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
 }
 
 

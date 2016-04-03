@@ -1,0 +1,33 @@
+
+#contactbar [class*='col-'] {
+  margin-top: 0;
+  padding: 1em 0;
+}
+
+#contactbar {
+  background-color: whitesmoke;
+  border-radius: 0 0 4px 4px;
+  height: 20em;
+  margin-bottom: 2em;
+  padding: 1em 0;
+  text-align: left;
+}
+
+.cb_hide {
+  margin-top: -20em;
+  transition: margin-top .3s ease-out;
+}
+
+.cb_show {
+  margin-top: 0;
+  transition: margin-top .3s ease-out;
+}
+
+@media (min-width: 64em) {
+  #contactbar {
+    height: 7em;
+  }
+  .cb_hide {
+    margin-top: -7em;
+  }
+}
